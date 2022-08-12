@@ -106,7 +106,7 @@ function RectangularMatrix(mat,r,c){
         top++
 
     }
-    console.log(ba);
+    console.log(bag);
 }
 
 
