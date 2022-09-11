@@ -56,7 +56,27 @@
 
 // ---------------------------------------------------------------------
 // without using mid value 2pointer
-var arr=[0,2,0,1,2,0];
+// var arr=[0,2,0,1,2,0];
 
-var left=0;
-var right=arr.length-1;
+// var left=0;
+// var right=arr.length-1;
+// while(left<=right){
+//     if(arr[left]==0){
+//         left++;
+//     }
+//     else if(arr[left]==1){
+//         left++;
+//     }
+//     else{
+//         var temp=arr[left];
+//         arr[left]=arr[right];
+//         arr[right]=temp
+//         right--;
+//     }
+// }
+// console.log(arr)
+
+// // tc-0(n)
+// // sc-0(1)
+// // -------------------------------------------------------------------------
+
