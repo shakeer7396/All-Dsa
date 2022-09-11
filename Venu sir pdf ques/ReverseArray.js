@@ -1,0 +1,33 @@
+// Brute Force Approach
+
+ var arr=[1,2,3,4,5];
+// var arr1=[];
+// for(var i=arr.length-1;i>=0;i--){
+//     arr1.push(arr[i])
+// }
+// console.log(arr1)
+
+//time complexity:-o(n)
+//space complexity:-o(n)
+
+
+// for(var i=0;i<arr.length;i++){
+//     for(var j=i+1)
+// }
+// t-O(n2)
+// s-o(1)
+
+// 2pointer
+// let left=0;
+// let right=arr.length-1;
+// while(left<right){
+//     let temp=arr[left];
+//     arr[left]=arr[right];
+//     arr[right]=temp
+//     left++;
+//     right--;
+// }
+// console.log(arr);
+
+// tc-o(n);
+// sc-o(1)
