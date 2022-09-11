@@ -9,14 +9,21 @@
 
 //time complexity:-o(n)
 //space complexity:-o(n)
+// ------------------------------------------------------------------------
 
-
-// for(var i=0;i<arr.length;i++){
-//     for(var j=i+1)
-// }
+for(var i=0;i<arr.length;i++){
+    for(var j=i+1;j<arr.length;j++){
+        if(arr[i]<arr[j]){
+            var temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+        }
+    }
+}
+console.log(arr)
 // t-O(n2)
 // s-o(1)
-
+// ---------------------------------------------------
 // 2pointer
 // let left=0;
 // let right=arr.length-1;
