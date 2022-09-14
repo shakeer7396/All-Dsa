@@ -1,5 +1,7 @@
 var arr=[7,10,4,3,20,15];
 var k=3;
+//OBJECT ALWAYS GIVEN SORTED ARRAY OUTPUT RESULT
+
 // var obj={};
 // for(let i=0;i<arr.length;i++){
 //     if(obj[arr[i]]==null){
