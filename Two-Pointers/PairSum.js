@@ -28,7 +28,7 @@ function palindrome(arr,n,k){
 
 if (process.env.USERNAME === "shake") {
     runProgram(`5 10
-    1 2 3 4 5`);
+    1 2 3 5 5`);
   } else {
     process.stdin.resume();
     process.stdin.setEncoding("ascii");
