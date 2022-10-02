@@ -1,5 +1,0 @@
-var func1=function func2(){
-    console.log("clg");
-    }
-    func1()
-    func2();
