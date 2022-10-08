@@ -55,7 +55,7 @@ function maximumoccuring(arr,n){
     }
   }
   var max=-Infinity;
-  let a=-1;
+  let a;
   for(let key in obj){
     if(obj[key]>max){
       max=obj[key];
