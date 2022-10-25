@@ -58,11 +58,9 @@ function binaryChange(mat,r,c){
       }
       else if(mat[i][j]==1){
         bag+=0+" ";
-
-    }
+     }
     }
   console.log(bag);
-
   }
 }
 
