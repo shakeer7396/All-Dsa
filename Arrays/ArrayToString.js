@@ -37,25 +37,41 @@
 
 
 function runProgram(input){
-   input=input.trim().split("\n");
-   var n=+input[0];
-   var arr=input[1].trim().split(" ").map(Number)
+  //  input=input.trim().split("\n");
+  //  var n=+input[0];
+  //  var arr=input[1].trim().split(" ").map(Number)
 //    console.log(arr,n);
-arrstring(arr,n)
+// arrstring(arr,n)
+input=input.trim().split("\n");
+var n=+input[0];
+var arr=input[1].trim().split(" ").map(Number);
+out(n,arr)
     
 }
-function arrstring(arr,n){
-    var bag="";
-    for(var i=0;i<n;i++){
-        if(arr[i]<=-1){
-            bag+=arr[i]=0;
-        }
-        else{
-            bag+=arr[i];
-        }
+function out(n,arr){
+  var bag="";
+  for(var i=0;i<n;i++){
+    if(arr[i]<0){
+      bag+=arr[i]=0;
     }
-    console.log(bag);
+    else{
+      bag+=arr[i]
+    }
+  }
+  console.log(bag)
 }
+// function arrstring(arr,n){
+//     var bag="";
+//     for(var i=0;i<n;i++){
+//         if(arr[i]<=-1){
+//             bag+=arr[i]=0;
+//         }
+//         else{
+//             bag+=arr[i];
+//         }
+//     }
+//     console.log(bag);
+// }
 
  
 
