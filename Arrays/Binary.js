@@ -48,21 +48,34 @@ function runProgram(input){
    } 
   //  console.log(mat)
   binaryChange(mat,r,c)
+  
 }
-function binaryChange(mat,r,c){
-  for(let i=0;i<r;i++){
-    bag="";
-    for(let j=0;j<c;j++){
-      if(mat[i][j]==0){
-        bag+=1+" ";
+ function binaryChange(mat,r,c){
+    for(var i=0;i<r;i++){
+      var bag="";
+      for(var j=0;j<c;j++){
+        if(mat[i][j]==0){
+          bag+=1+" ";
+        }
+        else if(mat[i][j]==1){
+          bag+=0+" ";
+        }
       }
-      else if(mat[i][j]==1){
-        bag+=0+" ";
-     }
+      console.log(bag);
     }
-  console.log(bag);
-  }
-}
+//   for(let i=0;i<r;i++){
+//     bag="";
+//     for(let j=0;j<c;j++){
+//       if(mat[i][j]==0){
+//         bag+=1+" ";
+//       }
+//       else if(mat[i][j]==1){
+//         bag+=0+" ";
+//      }
+//     }
+//   console.log(bag);
+//   }
+ }
 
 
 
