@@ -47,27 +47,27 @@
 
 // Since, the hand bag of first person is 8kgs (greater than 7kgs), therefore stopped.
 
+
 function runProgram(input){
-   input=input.trim().split("\n")
-   var n=+input[0];
-   var lbag=input[1].trim().split(" ").map(Number);
-   var hbag=input[2].trim().split(" ").map(Number);
-  //  console.log(lbag,hbag,n);
-   masaiairline(lbag,hbag,n)
-    
+  input=input.trim().split("\n")
+  var n=+input[0];
+  var lbag=input[1].trim().split(" ").map(Number);
+  var hbag=input[2].trim().split(" ").map(Number);
+ //  console.log(lbag,hbag,n);
+  masaiairline(lbag,hbag,n)
+   
 }
 function masaiairline(lbag,hbag,n){
-  for(var i=0;i<n;i++){
-    if(lbag[i]<=15 && hbag[i]<=7){
-      console.log("Boarding")
-    }
-    else{
-      console.log("stop");
-    }
-  }
+ for(var i=0;i<n;i++){
+   if(lbag[i]<=15 && hbag[i]<=7){
+     console.log("Boarding")
+   }
+   else{
+     console.log("stop");
+   }
+ }
 }
 
- 
 
 if (process.env.USERNAME === "shake") {
   runProgram(`4
