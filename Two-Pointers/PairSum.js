@@ -9,26 +9,26 @@ function runProgram(input){
 function palindrome(arr,n,k){
    var s=0;
    var e=n-1;
+
    while(s<e){
     if(arr[s]+arr[e]==k){
-        return true
+      return true;
     }
     else if(arr[s]+arr[e]<k){
-        s++;
+      s++;
     }
     else{
-        e--;
+      e--
     }
-
-   } 
-        return -1
+   }
+   return -1
     
 }
 
 
 if (process.env.USERNAME === "shake") {
     runProgram(`5 10
-    1 2 3 4 5`);
+    1 2 3 5 5`);
   } else {
     process.stdin.resume();
     process.stdin.setEncoding("ascii");
