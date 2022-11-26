@@ -53,7 +53,19 @@ function runProgram(input){
       ZTraversal(mat,n)
     }
 }
-
+function ZTraversal(mat,n){
+  var bag="";
+  for(var i=0;i<n;i++){
+      bag+=mat[0][i]+" ";
+  }
+  for(var i=1;i<n-1;i++){
+      bag+=mat[i][n-1-i]+" ";
+  }
+  for(var i=0;i<n && n!=1;i++){
+      bag+=mat[n-1][i]+" ";
+  }
+  console.log(bag)
+}
  
 
 if (process.env.USERNAME === "shake") {
