@@ -43,7 +43,6 @@
 // Maximum integer in array[-2, 0, 8, 4]is-8
 var arr=[-2,0,8,4];
 var n=arr.length-1;
-
 function small_large(n,arr){
     var min=Infinity;
     for(var i=0;i<n;i++){
@@ -61,4 +60,6 @@ function small_large(n,arr){
     console.log(min);
 console.log(max)
 }
+small_large()
+
 
