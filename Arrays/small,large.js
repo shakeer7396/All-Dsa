@@ -42,24 +42,50 @@
 
 // Maximum integer in array[-2, 0, 8, 4]is-8
 var arr=[-2,0,8,4];
-var n=arr.length-1;
-function small_large(n,arr){
+
     var min=Infinity;
-    for(var i=0;i<n;i++){
+    for(var i=0;i<arr.length;i++){
         if(arr[i]<min){
             min=arr[i]
         }
     }
 
     var max=-Infinity;
-    for(var i=0;i<n;i++){
+    for(var i=0;i<arr.length;i++){
         if(arr[i]>max){
             max=arr[i]
         }
     }
     console.log(min);
 console.log(max)
-}
-small_large()
 
 
+//var arr=[10,4,8,2,32,54,9];
+// var min=Infinity;
+// var max=-Infinity;
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i]
+//     }
+//     else if(arr[i]<min){
+//         min=arr[i]
+//     }
+// }
+// console.log(max,min);
+
+// tc-o(n)
+// sc-o(1)
+
+// var arr=[10,4,8,2,32,54,9];
+
+// var min=Infinity;
+// var max=-Infinity;
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i];
+//     }
+//     else if(arr[i]<min){
+//         min=arr[i]
+//     }
+// }
+// console.log(min,max);
