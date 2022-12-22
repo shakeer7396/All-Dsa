@@ -38,7 +38,9 @@
 // a=Math.floor(n*((n+1)/2)) 
 // console.log(a-count);
 // }
+
 function runProgram(input){
+
     input=input.trim().split(" ").map(Number);
     var sum=0;
     var n=input.length+1;
@@ -46,6 +48,7 @@ function runProgram(input){
     for(var i=0;i<input.length;i++){
         sum+=input[i];
     }
+
     var res=add-sum;
     console.log(res);
 }
