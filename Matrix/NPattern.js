@@ -52,8 +52,8 @@ function runProgram(input){
         //console.log(mat);
         Npattern(mat)
     }
-    
     }
+
     function Npattern(mat){
         var bag="";
         for(var i=mat.length-1;i>=0;i--){
@@ -67,9 +67,6 @@ function runProgram(input){
         }
         console.log(bag);
     }
-    
-    
-    
     
     if (process.env.USERNAME === "shake") {
       runProgram(`1
