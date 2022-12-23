@@ -45,6 +45,7 @@ function runProgram(input){
   maximumoccuring(arr,n)
 }
 function maximumoccuring(arr,n){
+
   var obj={};
   for(let i=0;i<n;i++){
     if(obj[arr[i]]==undefined){
@@ -54,6 +55,7 @@ function maximumoccuring(arr,n){
       obj[arr[i]]+=1;
     }
   }
+  
   var max=-Infinity;
   let a;
   for(let key in obj){
