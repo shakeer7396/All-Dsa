@@ -1,5 +1,6 @@
-var str='addcfcckaas'
+//Remove duplicate print single once
 
+//var str='addcfcckaas'
 // var obj={};
 
 // for(var i=0;i<str.length;i++){
@@ -19,6 +20,10 @@ var str='addcfcckaas'
 // }
 // console.log(bag)
 
+
+//Remove Repeated numbers
+
+var str='addcfcckaas'
 var obj={};
 for(var i=0;i<str.length;i++){
     if(obj[str[i]]==undefined){
