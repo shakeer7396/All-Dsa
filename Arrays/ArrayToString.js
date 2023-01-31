@@ -37,11 +37,11 @@
 
 
 function runProgram(input){
-  //  input=input.trim().split("\n");
-  //  var n=+input[0];
-  //  var arr=input[1].trim().split(" ").map(Number)
-//    console.log(arr,n);
-// arrstring(arr,n)
+   input=input.trim().split("\n");
+   var n=+input[0];
+   var arr=input[1].trim().split(" ").map(Number)
+   console.log(arr,n);
+arrstring(arr,n)
 // input=input.trim().split("\n");
 // var n=+input[0];
 // var arr=input[1].trim().split(" ").map(Number);
