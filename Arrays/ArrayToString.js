@@ -42,10 +42,10 @@ function runProgram(input){
   //  var arr=input[1].trim().split(" ").map(Number)
 //    console.log(arr,n);
 // arrstring(arr,n)
-input=input.trim().split("\n");
-var n=+input[0];
-var arr=input[1].trim().split(" ").map(Number);
-out(n,arr)
+// input=input.trim().split("\n");
+// var n=+input[0];
+// var arr=input[1].trim().split(" ").map(Number);
+// out(n,arr)
     
 }
 // function out(n,arr){
@@ -60,18 +60,18 @@ out(n,arr)
 //   }
 //   console.log(bag)
 // }
-// function arrstring(arr,n){
-//     var bag="";
-//     for(var i=0;i<n;i++){
-//         if(arr[i]<=-1){
-//             bag+=arr[i]=0;
-//         }
-//         else{
-//             bag+=arr[i];
-//         }
-//     }
-//     console.log(bag);
-// }
+function arrstring(arr,n){
+    var bag="";
+    for(var i=0;i<n;i++){
+        if(arr[i]<=-1){
+            bag+=arr[i]=0;
+        }
+        else{
+            bag+=arr[i];
+        }
+    }
+    console.log(bag);
+}
 
  
 
