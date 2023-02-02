@@ -1,11 +1,11 @@
 // Brute Force Approach
 
-//  var arr=[1,4,2,6,1,9];
-// var arr1=[];
-// for(var i=arr.length-1;i>=0;i--){
-//     arr1.push(arr[i])
-// }
-// console.log(arr1)
+ var arr=[1,4,2,6,1,9];
+var arr1=[];
+for(var i=arr.length-1;i>=0;i--){
+    arr1.push(arr[i])
+}
+console.log(arr1)
 
 //time complexity:-o(n)
 //space complexity:-o(n)
