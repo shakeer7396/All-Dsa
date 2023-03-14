@@ -14,7 +14,7 @@ console.log(arr.join(" "))
 
 // tc-0(n2)
 // sc-0(1)
-
+//data checking
 function swap(arr,j,i){
     let swaap=arr[i];
     arr[i]=arr[index];
