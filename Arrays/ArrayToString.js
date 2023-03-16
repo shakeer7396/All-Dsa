@@ -46,18 +46,18 @@ arrstring(arr,n)
 }
 
 //SECOND METHOD STATEMENT
-// function out(n,arr){
-//   var bag="";
-//   for(var i=0;i<n;i++){
-//     if(arr[i]<0){
-//       bag+=arr[i]=0;
-//     }
-//     else{
-//       bag+=arr[i]
-//     }
-//   }
-//   console.log(bag)
-// }
+function out(n,arr){
+  var bag="";
+  for(var i=0;i<n;i++){
+    if(arr[i]<0){
+      bag+=arr[i]=0;
+    }
+    else{
+      bag+=arr[i]
+    }
+  }
+  console.log(bag)
+}
 
 
  
