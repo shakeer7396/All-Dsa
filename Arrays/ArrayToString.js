@@ -42,11 +42,9 @@ function runProgram(input){
    var arr=input[1].trim().split(" ").map(Number)
    console.log(arr,n);
 arrstring(arr,n)
-
 }
-
 //SECOND METHOD STATEMENT
-function out(n,arr){
+function arrstring(arr,n){
   var bag="";
   for(var i=0;i<n;i++){
     if(arr[i]<0){
@@ -58,10 +56,6 @@ function out(n,arr){
   }
   console.log(bag)
 }
-
-
- 
-
 if (process.env.USERNAME === "shake") {
   runProgram(`5
   2 -4 6 8 -9`);
