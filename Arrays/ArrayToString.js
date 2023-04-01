@@ -44,28 +44,26 @@
 // arrstring(arr,n)
 // }
 // //SECOND METHOD STATEMENT
-// function arrstring(arr,n){
-//   var bag="";
-//   for(var i=0;i<n;i++){
-//     if(arr[i]<0){
-//       bag+=arr[i]=0;
-//     }
-//     else{
-//       bag+=arr[i]
-//     }
-//   }
-//   console.log(bag)
-// }
+function arrstring(arr,n){
+  var bag="";
+  for(var i=0;i<n;i++){
+    if(arr[i]<0){
+      bag+=arr[i]=0;
+    }
+    else{
+      bag+=arr[i]
+    }
+  }
+  console.log(bag)
+}
 function runProgram(input){
   input=input.trim().split("\n");
   var n=+input[0];
   var arr=input[1].trim().split(" ").map(Number)
   // console.log(arr,n)
-  convert(arr,n)
+  arrstring(arr,n)
 }
-function convert(arr,n){
-  
-}
+
 if (process.env.USERNAME === "shake") {
   runProgram(`5
   2 -4 6 8 -9`);
