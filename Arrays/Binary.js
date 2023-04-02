@@ -40,20 +40,15 @@
 
 function runProgram(input){
   // console.log(input); 
-  //  input=input.trim().split("\n");
-  //  var [r,c]=input[0].trim().split(" ").map(Number);
-  //  var mat=[];
-  //  for(var i=1;i<=r;i++){
-  //   mat.push(input[i].trim().split(" ").map(Number))
-  //  } 
-  // //  console.log(mat)
-  // binaryChange(mat,r,c)
-  input=input.trim().split("\n");
-  var [n,m]=input[0].trim().split(" ").map(Number);
-  var mat=[];
-  for(var i=1;i<=r;i++){
-    mat.push(input[i].trim().spilt(" ").map(Number))
-  }
+   input=input.trim().split("\n");
+   var [r,c]=input[0].trim().split(" ").map(Number);
+   var mat=[];
+   for(var i=1;i<=r;i++){
+    mat.push(input[i].trim().split(" ").map(Number))
+   } 
+  //  console.log(mat)
+  binaryChange(mat,r,c)
+  
 }
  function binaryChange(mat,r,c){
     for(var i=0;i<r;i++){
