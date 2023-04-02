@@ -60,10 +60,14 @@ arrstring(arr,n)
 function arrstring(arr,n){
   var bag="";
   for(var i=0;i<arr.length;i++){
-    if(arr[i]<-1){
-      
+    if(arr[i]<1){
+      bag+=arr[i]=0
+    }
+    else{
+      bag+=arr[i]
     }
   }
+  console.log(bag)
 }
 if (process.env.USERNAME === "shake") {
   runProgram(`5
