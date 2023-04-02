@@ -36,13 +36,14 @@
 // 20680
 
 
-// function runProgram(input){
-//    input=input.trim().split("\n");
-//    var n=+input[0];
-//    var arr=input[1].trim().split(" ").map(Number)
-//   //  console.log(arr,n);
-// arrstring(arr,n)
-// }
+function runProgram(input){
+   input=input.trim().split("\n");
+   var n=+input[0];
+   var arr=input[1].trim().split(" ").map(Number)
+  //  console.log(arr,n);
+arrstring(arr,n)
+
+}
 
 // function arrstring(arr,n){
 //   var bag="";
@@ -56,41 +57,15 @@
 //   }
 //   console.log(bag)
 // }
-// if (process.env.USERNAME === "shake") {
-//   runProgram(`5
-//   2 -4 6 8 -9`);
-// } else {
-//   process.stdin.resume();
-//   process.stdin.setEncoding("ascii");
-//   let read = "";
-//   process.stdin.on("data", function (input) {
-//     read += input;
-//   });
-//   process.stdin.on("end", function () {
-//     read = read.replace(/\n$/, "");
-//     read = read.replace(/\n$/, "");
-//     runProgram(read);
-//   });
-//   process.on("SIGINT", function () {
-//     read = read.replace(/\n$/, "");
-//     runProgram(read);
-//     process.exit(0);
-//   });
-// }
-
-function runProgram(input){
-  // input=input.trim().split("\n");
-  // var n=+input[0];
-  // var arr=input[1].trim().split(" ").map(Number);
-  // console.log(arr,n) 
-  console.log(input)
-    
+function arrstring(arr,n){
+  var bag="";
+  for(var i=0;i<arr.length;i++){
+    if(arr[i]<-1){
+      
+    }
+  }
 }
-
-
- 
-
-if (process.env.USER === "shake") {
+if (process.env.USERNAME === "shake") {
   runProgram(`5
   2 -4 6 8 -9`);
 } else {
