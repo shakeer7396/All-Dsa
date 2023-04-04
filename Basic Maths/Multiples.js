@@ -1,6 +1,6 @@
 var N=15;
 
-    for(var i=1;i<=N;i++){
+    for(var i=1;i<=15;i++){
     if(N%5==0){
         console.log("Masai")
     }
