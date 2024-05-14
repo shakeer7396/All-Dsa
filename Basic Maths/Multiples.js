@@ -10,9 +10,9 @@ var N=15;
     else if((N%5==0) && (N%7==0)){
         console.log("MasaiSchool")
     }
-    else{
-        console.log(i)
-    }
+    // else{
+    //     console.log(i)
+    // }
 }
 
     
