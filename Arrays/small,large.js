@@ -41,51 +41,37 @@
 // Minimum integer in array[-2, 0, 8, 4]is-2
 
 // Maximum integer in array[-2, 0, 8, 4]is-8
-var arr=[-2,0,8,4];
+// var arr=[-2,0,8,4];
 
-    var min=Infinity;
-    for(var i=0;i<arr.length;i++){
-        if(arr[i]<min){
-            min=arr[i]
-        }
-    }
-
-    var max=-Infinity;
-    for(var i=0;i<arr.length;i++){
-        if(arr[i]>max){
-            max=arr[i]
-        }
-    }
-    console.log(min);
-console.log(max)
-
-
-//var arr=[10,4,8,2,32,54,9];
-// var min=Infinity;
-// var max=-Infinity;
-// for(var i=0;i<arr.length;i++){
-//     if(arr[i]>max){
-//         max=arr[i]
+//     var min=Infinity;
+//     for(var i=0;i<arr.length;i++){
+//         if(arr[i]<min){
+//             min=arr[i]
+//         }
 //     }
-//     else if(arr[i]<min){
-//         min=arr[i]
+//     var max=-Infinity;
+//     for(var i=0;i<arr.length;i++){
+//         if(arr[i]>max){
+//             max=arr[i]
+//         }
 //     }
-// }
-// console.log(max,min);
+//     console.log(min);
+// console.log(max)
+
+
+var arr=[10,4,8,2,32,54,9];
+var min=Infinity;
+var max=-Infinity;
+for(var i=0;i<arr.length;i++){
+    if(arr[i]>max){
+        max=arr[i]
+    }
+    else if(arr[i]<min){
+        min=arr[i]
+    }
+}
+console.log(max,min);
 
 // tc-o(n)
 // sc-o(1)
 
-// var arr=[10,4,8,2,32,54,9];
-
-// var min=Infinity;
-// var max=-Infinity;
-// for(var i=0;i<arr.length;i++){
-//     if(arr[i]>max){
-//         max=arr[i];
-//     }
-//     else if(arr[i]<min){
-//         min=arr[i]
-//     }
-// }
-// console.log(min,max);
