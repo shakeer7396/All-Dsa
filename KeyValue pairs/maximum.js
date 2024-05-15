@@ -109,4 +109,4 @@ var obj={};
       a=key;
     }
   }
-  console.log(a);
+  console.log("Repeated Number is "+ a,"Count is "+max);
