@@ -35,9 +35,9 @@ for(var i=0;i<str.length;i++){
 }
 // console.log(obj)
 let bag="";
-for(var key in obj){
+for(let key in obj){
     if(obj[key]>1){
         bag+=key
     }
 }
-console.log(bag)
+console.log(bag);
