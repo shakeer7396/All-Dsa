@@ -73,3 +73,16 @@ if (process.env.USERNAME === "shake") {
     process.exit(0);
   });
 }
+
+// var arr= [1,2,3,4,5,6,7,9];
+// var sum = 0;
+// var count=arr.length+1;
+// //console.log(count); //=9
+// var add = (count*((count+1)/2));
+// //console.log(add); //=(9*((9+1)/2))=45
+// for(var i=0;i<arr.length;i++){
+//     sum+=arr[i];
+//     //console.log(sum); //adding above array =1 3 6 10 15 21 28 37 
+// }
+// var result = add-sum 
+// console.log(result); // 45-37 = 8 is missing you check with any number

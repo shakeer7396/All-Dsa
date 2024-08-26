@@ -70,7 +70,7 @@ for(var i=0;i<arr.length;i++){
         min=arr[i]
     }
 }
-console.log(max,min);
+console.log("Large is "+ max+" And Small is "+ min);
 
 // tc-o(n)
 // sc-o(1)
