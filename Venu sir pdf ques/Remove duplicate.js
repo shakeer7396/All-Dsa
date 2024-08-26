@@ -22,3 +22,9 @@ for (var i = 0; i < arr.length; i++) {
 }
 
 console.log(uniqueArr);
+
+
+// var arr = [1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6, 7, 9];
+// var uniqueArr = [...new Set(arr)];
+
+// console.log(uniqueArr);
